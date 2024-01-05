@@ -1,0 +1,129 @@
+html {
+    font-family: 17px;
+}
+.gpt3 {
+    &__CTA {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 10rem;
+        border-radius: 10.724px;
+        border: 1px solid #000;
+        background: linear-gradient(90deg, #ae67fa 1.84%, #f49867 102.67%);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+        &-text {
+            p {
+                color: #0e0e0e;
+                font-family: Manrope;
+                font-size: 12px;
+                font-weight: 500;
+                line-height: 30px; /* 250% */
+            }
+            h3 {
+                color: #000;
+                font-family: Manrope;
+                font-size: 24px;
+                font-weight: 800;
+                line-height: 45px; /* 187.5% */
+            }
+        }
+        &-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 11.1rem;
+            height: 3.5rem;
+            border: none;
+
+            button {
+                flex: 1;
+                color: white;
+                background: #000;
+                cursor: pointer;
+                border: none;
+                border-radius: 40px;
+                height: 100%;
+                color: #fff;
+                font-family: Manrope;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 30px; /* 166.667% */
+            }
+        }
+    }
+}
+@media screen and (max-width: 992px) {
+    .gpt3 {
+        &__CTA {
+            height: 6rem;
+            &-button {
+                button {
+                    font-size: 14px;
+                    line-height: 25px;
+                }
+            }
+            &-text {
+                h3 {
+                    font-size: 16px;
+                    line-height: 25px; /* 187.5% */
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+    .gpt3 {
+        &__CTA {
+            height: 5rem;
+            &-button {
+                width: 8rem;
+                height: 2.5rem;
+                button {
+                    font-size: 12px;
+                    line-height: 20px;
+                }
+            }
+            &-text {
+                h3 {
+                    font-size: 14px;
+                    line-height: 18px; /* 187.5% */
+                }
+                p {
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 576px) {
+    .gpt3 {
+        &__CTA {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            &-button {
+                width: 6rem;
+                margin-top: 1rem;
+                button {
+                    font-size: 10px;
+                    line-height: 20px;
+                }
+            }
+            &-text {
+                flex: 1;
+                h3 {
+                    font-size: 10px;
+                    line-height: 18px; /* 187.5% */
+                    text-align: center;
+                }
+                p {
+                    font-size: 8px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,111 @@
+$text-family: Manrope;
+.gpt3 {
+    &__features {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        flex-direction: row;
+        &-heading {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            text-align: left;
+            max-width: 30%;
+            margin-right: 15rem;
+            h1 {
+                font-family: $text-family;
+                font-size: 33px;
+                font-weight: 800;
+                line-height: 45px;
+            }
+            p {
+                color: #ff8a71;
+                font-family: $text-family;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 30px;
+                margin-top: 2rem;
+            }
+        }
+        &-container {
+            flex: 1.5;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            flex-direction: column;
+        }
+    }
+}
+@media screen and (max-width: 1400px) {
+    .gpt3 {
+        &__features {
+            &-heading {
+                margin-right: 5rem;
+                h1 {
+                    font-size: 25px;
+                    line-height: 35px;
+                }
+                p {
+                    font-size: 12px;
+                    line-height: 25px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 992px) {
+    .gpt3 {
+        &__features {
+            flex-direction: column;
+            &-heading {
+                margin-right: 0;
+            }
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+    .gpt3 {
+        &__features {
+            flex-direction: column;
+            &-heading {
+                margin-right: 0;
+                h1 {
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 576px) {
+    .gpt3 {
+        &__features {
+            flex-direction: column;
+
+            &-heading {
+                margin-right: 0;
+                padding: 0 2rem;
+                h1 {
+                    font-size: 20px;
+                    line-height: 35px;
+                }
+                p {
+                    font-size: 10px;
+                    margin-top: 0.25rem;
+                }
+            }
+            &-container {
+                padding: 0 2rem;
+                .gpt3 {
+                    &__feature {
+                        &-container {
+                            flex-direction: column;
+                            &-text {
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

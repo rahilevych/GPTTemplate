@@ -1,0 +1,45 @@
+$font-family: Manrope;
+.gpt3 {
+    &__blog {
+        display: flex;
+        flex-direction: column;
+        &-heading {
+            width: 100%;
+            h2 {
+                font-family: $font-family;
+                font-size: 62px;
+                font-weight: 800;
+                line-height: 75px;
+                letter-spacing: -2.48px;
+            }
+        }
+        &-content {
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            grid-template-columns: 35% 1fr 1fr;
+            gap: 2rem;
+            margin-top: 7rem;
+        }
+        &-content > :first-child {
+            grid-row: span 2;
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+    .gpt3 {
+        &__blog {
+            &-heading {
+                h2 {
+                    font-size: 42px;
+                }
+            }
+            &-content {
+                grid-template-columns: 1fr;
+                grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
+            }
+            &-content > :first-child {
+                grid-row: unset;
+            }
+        }
+    }
+}

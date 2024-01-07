@@ -34,11 +34,21 @@ $font-family: Manrope;
                 }
             }
             &-content {
-                grid-template-columns: 1fr;
+                grid-template-columns: repeat(2, 1fr);
                 grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
             }
             &-content > :first-child {
                 grid-row: unset;
+            }
+        }
+    }
+}
+@media screen and (max-width: 320px) {
+    .gpt3 {
+        &__blog {
+            &-content {
+                grid-template-columns: 1fr;
+                grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
             }
         }
     }

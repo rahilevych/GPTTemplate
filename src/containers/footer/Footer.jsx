@@ -1,6 +1,6 @@
 import React from 'react';
 import './footer.scss';
-function Footer() {
+const Footer = () => {
   return (
     <div className='footer section__padding'>
       <div className='footer__heading'>
@@ -51,6 +51,6 @@ function Footer() {
       </div>
     </div>
   );
-}
+};
 
 export default Footer;

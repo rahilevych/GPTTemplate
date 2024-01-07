@@ -1,7 +1,7 @@
 import React from 'react';
 import './possibility.scss';
 import possibilities from '../../assets/possibilities.png';
-function Possibility() {
+const Possibility = () => {
   return (
     <div className='gpt3__possibility section__padding'>
       <div className='gpt3__possibility-img'>
@@ -22,6 +22,6 @@ function Possibility() {
       </div>
     </div>
   );
-}
+};
 
 export default Possibility;

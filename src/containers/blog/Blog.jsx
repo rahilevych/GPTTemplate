@@ -2,7 +2,7 @@ import React from 'react';
 import './blog.scss';
 import { Article } from '../../components';
 import { img1, img2, img3, img4, img5 } from './imports';
-function Blog() {
+const Blog = () => {
   return (
     <div className='gpt3__blog section__padding'>
       <div className='gpt3__blog-heading'>
@@ -45,6 +45,6 @@ function Blog() {
       </div>
     </div>
   );
-}
+};
 
 export default Blog;

@@ -2,7 +2,7 @@ import React from 'react';
 import './whatGPT.scss';
 import Feature from '../../components/feature/Feature';
 
-function WhatGPT() {
+const WhatGPT = () => {
   return (
     <div className='gpt3__whatgpt3 section__margin' id='wgpt3'>
       <div className='gpt3__whatgpt3-feature'>
@@ -33,6 +33,6 @@ function WhatGPT() {
       </div>
     </div>
   );
-}
+};
 
 export default WhatGPT;

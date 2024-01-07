@@ -21,8 +21,10 @@ html {
         &-content {
             flex: 1;
             margin-left: 1.25rem;
-            h1 {
+            h2 {
                 margin-top: 0.8rem;
+                font-size: 34px;
+                line-height: 45px;
             }
             p {
                 color: #81afdd;
@@ -57,8 +59,9 @@ html {
             align-items: center;
             &-content {
                 width: 100%;
-                h1 {
-                    font-size: 33px;
+                h2 {
+                    font-size: 25px;
+                    line-height: 35px;
                 }
                 h4 {
                     font-size: 13px;

@@ -30,7 +30,9 @@ $font-family: Manrope;
         &__blog {
             &-heading {
                 h2 {
-                    font-size: 42px;
+                    font-size: 25px;
+                    line-height: 35px;
+                    text-align: center;
                 }
             }
             &-content {
@@ -49,6 +51,7 @@ $font-family: Manrope;
             &-content {
                 grid-template-columns: 1fr;
                 grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
+                margin-top: 4rem;
             }
         }
     }

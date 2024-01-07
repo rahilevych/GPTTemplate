@@ -15,7 +15,7 @@ $text-family: Manrope;
             text-align: left;
             max-width: 30%;
             margin-right: 15rem;
-            h1 {
+            h2 {
                 font-family: $text-family;
                 font-size: 33px;
                 font-weight: 800;
@@ -44,7 +44,7 @@ $text-family: Manrope;
         &__features {
             &-heading {
                 margin-right: 5rem;
-                h1 {
+                h2 {
                     font-size: 25px;
                     line-height: 35px;
                 }
@@ -60,8 +60,14 @@ $text-family: Manrope;
     .gpt3 {
         &__features {
             flex-direction: column;
+            padding: 3rem 1rem;
             &-heading {
                 margin-right: 0;
+                max-width: 100%;
+                h2 {
+                    font-size: 25px;
+                    line-height: 35px;
+                }
             }
         }
     }
@@ -72,8 +78,6 @@ $text-family: Manrope;
             flex-direction: column;
             &-heading {
                 margin-right: 0;
-                h1 {
-                }
             }
         }
     }
@@ -86,10 +90,6 @@ $text-family: Manrope;
             &-heading {
                 margin-right: 0;
                 padding: 0 2rem;
-                h1 {
-                    font-size: 20px;
-                    line-height: 35px;
-                }
                 p {
                     font-size: 10px;
                     margin-top: 0.25rem;

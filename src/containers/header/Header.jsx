@@ -6,9 +6,9 @@ function Header() {
   return (
     <div className='gpt3__header ' id='home'>
       <div className='gpt3__header-content'>
-        <h1 className='gradient-text'>
+        <h2 className='gradient-text'>
           Let’s Build Something amazing with GPT-3 OpenAI
-        </h1>
+        </h2>
         <p className='gpt3__header-content-text'>
           Yet bed any for travelling assistance indulgence unpleasing. Not
           thoughts all exercise blessing. Indulgence way everything joy

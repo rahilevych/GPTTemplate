@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6c57fea8.css",
+    "main.js": "/static/js/main.7d2f52c4.js",
+    "static/media/ai.png": "/static/media/ai.1fcab8ec94a945c2ea11.png",
+    "static/media/possibilities.png": "/static/media/possibilities.e685de02939616d109da.png",
+    "static/media/img1.png": "/static/media/img1.b8c594107c0678715afa.png",
+    "static/media/img3.png": "/static/media/img3.6c4c03beb10707bc4726.png",
+    "static/media/img4.png": "/static/media/img4.beb41199f58f7cf27240.png",
+    "static/media/img5.png": "/static/media/img5.a3a9b572dc5b0aa6446d.png",
+    "static/media/img2.png": "/static/media/img2.4575fb47b66fd76940b0.png",
+    "static/media/people.png": "/static/media/people.2cfdf724680e3ce7e868.png",
+    "static/media/dropbox.png": "/static/media/dropbox.74056b966ce8bd5829b6.png",
+    "static/media/atlassian.png": "/static/media/atlassian.b300970d4dad69eef066.png",
+    "static/media/logo.svg": "/static/media/logo.cf6810c94fbac0cc653f939ff5723cf4.svg",
+    "index.html": "/index.html",
+    "main.6c57fea8.css.map": "/static/css/main.6c57fea8.css.map",
+    "main.7d2f52c4.js.map": "/static/js/main.7d2f52c4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c57fea8.css",
+    "static/js/main.7d2f52c4.js"
+  ]
+}

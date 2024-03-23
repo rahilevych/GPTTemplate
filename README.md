@@ -5,7 +5,7 @@ A simple layout with  React.js. I build this web site to get acquainted with Rea
 - HTML
 - SCSS/CSS
 # 🤙 Features
-There is no realised features, only written template from Figma with React components 
+There are no realised features, only written template from Figma with React components 
 # 🧠 What I Learned
 - how to create React component
 - JSX and its syntax

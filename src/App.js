@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import {
   Footer,
   Blog,
@@ -6,9 +6,9 @@ import {
   Features,
   WhatGPT,
   Header,
-} from './containers'
-import { CTA, Brand, Navbar } from './components'
-import './App.scss'
+} from './containers';
+import { CTA, Brand, Navbar } from './components';
+import './App.scss';
 
 const App = () => {
   return (
@@ -25,7 +25,7 @@ const App = () => {
       <Blog />
       <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;

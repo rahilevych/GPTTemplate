@@ -1,0 +1,91 @@
+html {
+  font-size: 16px;
+}
+
+.gpt3__possibility {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-top: 1rem;
+}
+.gpt3__possibility-img {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  max-width: 50%;
+  max-height: 100%;
+}
+.gpt3__possibility-img img {
+  width: 100%;
+  max-height: 100%;
+}
+.gpt3__possibility-content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-left: 1.25rem;
+}
+.gpt3__possibility-content h2 {
+  margin-top: 0.8rem;
+  font-size: 34px;
+  line-height: 45px;
+}
+.gpt3__possibility-content p {
+  color: #81afdd;
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 0.75rem;
+}
+.gpt3__possibility-content h4 {
+  color: #71e5ff;
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  cursor: pointer;
+}
+.gpt3__possibility-content .orange {
+  color: #ff8a71;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .gpt3__possibility {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .gpt3__possibility-content {
+    width: 100%;
+  }
+  .gpt3__possibility-content h2 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .gpt3__possibility-content h4 {
+    font-size: 13px;
+  }
+  .gpt3__possibility-content-img {
+    width: 100%;
+  }
+}/*# sourceMappingURL=possibility.css.map */

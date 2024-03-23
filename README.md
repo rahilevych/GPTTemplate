@@ -19,4 +19,4 @@ There are no realised features, only written template from Figma with React comp
   3.Run `npm run start` or `yarn start` to get the project started.
   4.Open http://localhost:3000
 # 🎥 Demo:
-https://rahilevych.github.io/simpleLayoutGPT/
+
